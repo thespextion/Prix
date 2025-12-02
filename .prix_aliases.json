@@ -1,0 +1,5 @@
+{
+  "dev": "npm run dev",
+  "win_dev": "npm run dev:win",
+  "ssh": "ssh -i C:\\Users\\NITHIN\\Documents\\GitHub\\iamgame-mono\\personal\\iamgame-ec2.pem -N -L 5704:iamgame-db.cluster-cj2ieuqgiqcf.us-west-1.rds.amazonaws.com:5432 ec2-user@54.177.70.13 -o ServerAliveInterval=60 -o ServerAliveCountMax=3600"
+}

@@ -1,0 +1,38 @@
+# Development files
+.git
+.gitignore
+node_modules/
+
+# Prix configuration files (user-specific)
+.prix_aliases.json
+.prix_history.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+test/
+*.test.js
+*.spec.js
+
+# Documentation (keep README.md)
+docs/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Misc
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

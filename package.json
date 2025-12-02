@@ -1,0 +1,50 @@
+{
+  "name": "@spextion/prix",
+  "version": "1.0.0",
+  "description": "A powerful CLI toolkit for developers - streamline your workflow with command aliases, project analysis, and productivity utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "prix": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "toolkit",
+    "developer-tools",
+    "command-line",
+    "productivity",
+    "aliases",
+    "code-analysis",
+    "todo-finder",
+    "gitignore",
+    "license-generator",
+    "project-management"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/prix-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/prix-cli/issues"
+  },
+  "homepage": "https://github.com/yourusername/prix-cli#readme",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "glob": "^13.0.0",
+    "inquirer": "^8.2.5",
+    "picocolors": "^1.1.1",
+    "yargs": "^18.0.0"
+  },
+  "files": [
+    "index.js",
+    "commands/"
+  ]
+}
