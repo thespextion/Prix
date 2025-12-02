@@ -13,6 +13,7 @@
 
 **Streamline your workflow** | **Boost productivity** | **Automate common tasks**
 
+[![npm version](https://img.shields.io/npm/v/@spextion/prix.svg)](https://www.npmjs.com/package/@spextion/prix)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 [![Node Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org)
 
@@ -35,15 +36,19 @@ A powerful and intuitive command-line interface tool designed to streamline your
 
 ## Installation
 
+Install globally to use anywhere:
+
 ```bash
-npm install -g prix
+npm install -g @spextion/prix
 ```
 
 Or install locally in your project:
 
 ```bash
-npm install prix
+npm install @spextion/prix
 ```
+
+After installation, you can use the `prix` command from your terminal.
 
 ## Commands
 
