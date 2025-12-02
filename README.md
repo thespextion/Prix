@@ -66,22 +66,22 @@ prix alias -c           # Clear all aliases
 
 ```bash
 prix analyze            # Analyze project structure and dependencies
-prix count [dir]        # Count lines of code in your project
+prix count       # Count lines of code in your project
 prix count --ext js,ts  # Count only specific file types
 ```
 
 ### TODO Finder
 
 ```bash
-prix todo [dir]         # Find all TODO, FIXME, HACK comments
+prix todo         # Find all TODO, FIXME, HACK comments
 prix todo --type TODO,FIXME  # Search for specific comment types
 ```
 
 ### File Generators
 
 ```bash
-prix gitignore [template]   # Generate .gitignore from templates
-prix license [type]         # Generate LICENSE file (MIT, Apache-2.0, GPL-3.0)
+prix gitignore    # Generate .gitignore from templates
+prix license        # Generate LICENSE file (MIT, Apache-2.0, GPL-3.0)
 prix readme                 # Generate README template
 prix snippet                # Create a code snippet file
 ```
