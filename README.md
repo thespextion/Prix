@@ -16,6 +16,7 @@
 [![npm version](https://img.shields.io/npm/v/@spextion/prix.svg)](https://www.npmjs.com/package/@spextion/prix)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 [![Node Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org)
+[![Bun Version](https://img.shields.io/badge/bun-%3E%3D1.0.0-f472b6)](https://bun.sh)
 
 </div>
 
@@ -39,13 +40,21 @@ A powerful and intuitive command-line interface tool designed to streamline your
 Install globally to use anywhere:
 
 ```bash
+# npm
 npm install -g @spextion/prix
+
+# bun
+bun install -g @spextion/prix
 ```
 
 Or install locally in your project:
 
 ```bash
+# npm
 npm install @spextion/prix
+
+# bun
+bun add @spextion/prix
 ```
 
 After installation, you can use the `prix` command from your terminal.
@@ -148,8 +157,8 @@ Prix stores configuration files in your project root:
 
 ## Requirements
 
-- Node.js 14.x or higher
-- npm or yarn
+- Node.js 14.x or higher **or** Bun 1.0 or higher
+- npm, yarn, or bun
 
 ## Development
 
@@ -157,12 +166,12 @@ Clone the repository:
 ```bash
 git clone <repository-url>
 cd cli
-npm install
+npm install   # or: bun install
 ```
 
 Run locally:
 ```bash
-node index.js <command>
+node index.js <command>   # or: bun index.js <command>
 ```
 
 ## Contributing
